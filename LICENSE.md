@@ -1,7 +1,7 @@
 The MIT License (MIT)
 http://opensource.org/licenses/MIT
 
-Copyright (c) 2014 GaiaStudio Software Inc. </br>
+Copyright (c) 2014 GaiaStudio Software Inc.
 http://GaiaStudio.ca
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
