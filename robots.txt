@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /htm/
+Disallow: /images/
+Disallow: /js/
+Disallow: /kml/
+Disallow: /MF/
+Disallow: /mf/
+Disallow: /mg/
+Disallow: /michael_gerzon/
+Disallow: /models/
+Disallow: /plugins/
+Disallow: /syntaxhighlighter/
