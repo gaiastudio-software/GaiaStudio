@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder>
+  <LookAt>
+    <longitude>-126.369959193227</longitude>
+    <latitude>49.7321703793326</latitude>
+    <altitude>0</altitude>
+    <range>700000</range>
+    <tilt>0</tilt>
+    <heading>0</heading>
+  </LookAt>
+<Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-129.99209214499024,51.004678873597456 -124.00700899844139,51.006550638464354 -124.01069974341327,50.010090041645569 -121.9995123604689,50.01179762408853 -122.02200741400378,48.012968411491755 -126.01164704935746,48.00073882711613 -126.01189470736284,48.994641273110254 -128.0247081780102,49.001271560509352 -128.00496202541277,49.994385045893544 -129.99292635905184,50.012073003144778 -129.99209214499024,51.004678873597456</coordinates></LinearRing></outerBoundaryIs></Polygon>
+</Placemark>
+  
+</Folder></Document></kml>
+
+

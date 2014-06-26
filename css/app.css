@@ -1,0 +1,238 @@
+body {
+   background-color: #8bf;
+   font-family: arial, sans-serif; 
+   font-size: 13px; 
+   line-height: 150%;
+   border: 0;
+   margin: 0;
+}
+#page-article {
+   overflow: hidden;
+   min-width:  600px;
+   max-width: 1000px;
+   margin: 0 auto 0 auto;
+   background-color: #f5f5f5;
+   color: #444;
+   border-left:  1px solid gray;
+   border-right: 1px solid gray;
+}
+header header {
+   background-color: #f9f9f9; 
+}
+header nav {
+   display: block;
+   background-color: #f5f5f5;
+   padding-top:    5px;
+   padding-bottom: 5px;
+}
+header h1 {
+   background-color: #e0e0e0;
+   font-size: 250%;
+   color: #666;
+   line-height: 240%;
+   margin: 0 0 0.2em 0;
+}
+header header, 
+header nav,
+header h1,
+#page-section,
+#login-section,
+footer {
+   padding-left:  40px;
+   padding-right: 40px;
+   border-bottom: 1px solid gray;
+}
+header header h3 {
+   display: inline;
+   position: relative;
+   top: -2em;
+}
+figure img {
+   border: 1px solid gray;
+}
+#login-section {
+   height: 500px;
+   padding:  0px;
+}
+#login-form {
+   background-color: #e0e0e0;
+   height:  auto;
+   width:   auto;
+   padding:  30px;
+   margin:   90px;
+   text-align: center;
+   border: 1px solid gray;
+}
+footer {
+   background-color: #666;
+   color: #bbb;
+   font-size: 80%; 
+   padding-top:    5px;
+   padding-bottom: 5px;
+}
+#debug-div {
+   font: small;
+   color: #fff;
+}
+#mask-iframe {
+   display: none;
+   background-color: #000;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   z-index: 20; /* must greater than in #map-div */
+}
+#boxes-div .window {
+   display: none;
+   height: 100%;
+   padding: 20px;
+   position: relative;
+   z-index: 30; /* must greater than in #mask-iframe */
+}
+#boxes-div #modal-dialog {
+   width: 90%; /* 80%; */
+   height: 500px; /* 780px; */
+   overflow: auto;
+   background-color: #fff;
+}
+#article-container {
+   /* overflow: hidden; */
+   width: auto; /* 100%; */
+   height: 980px; /* 920px; */
+   padding: 2px 0.2% 2px 0.2%; /* 2px 2px 2px 2px; */
+   border: 0px solid red;
+   margin: 0 0 0 0; /* 0 auto 0 auto; */
+   position: relative;
+}
+#main-article {
+   width: auto; /* 100%; */
+   height: 972px; /* 100%; */
+   border: 0px solid green;
+   margin: 0 0 0 0; /* 0 auto 0 auto; */
+   position: relative;
+}
+#map-section {
+   float: left;
+   width: 50%; /* 52%; */
+   height: 90%; /* 99.5%; */
+   padding: 2px 0.2% 2px 0.2%; /* 2px 2px 2px 2px; */
+   border: 0px solid orange;
+   margin: 0 auto 0 auto; /* 0 0 0 0; */
+   position: relative;
+}
+#controls-section {
+   float: right;
+   width: 49%; /* 47%; */
+   height: 99%;
+   padding: 2px 0.2% 2px 0.2%; /* 2px 2px 2px 2px; */
+   border: 0px solid purple;
+   margin: 0 auto 0 auto; /* 0 0 0 0; */
+   position: relative;
+}
+#map-div {
+   width: 100%;
+   height: 98%;
+   position: relative;
+   z-index: 10;
+}
+#controls-subsection {
+   width: 100%;
+   border: 0px solid yellow;
+   position: relative;
+}
+#chart-subsection {
+   width: 100%;
+   border: 0px solid black;
+   position: relative;   
+}
+nav {
+   display: inline;
+}
+nav input {
+   background-color: #fff;
+   border: solid 1px #aaa;
+}
+h3 {
+   margin-bottom:  6px;
+}
+h4 {
+   margin-top:     6px;
+   margin-bottom:  4px;
+}
+#progress-control {
+   width: 100%;
+   margin-top: 9px;
+}
+#versions-etc {
+   position: relative; 
+   top: -1.0em; 
+   font-size: 90%;
+}
+#chart-div {
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+/*.jqplot-axis {
+   color: black;
+   font-size: 14pt;
+}*/
+#company-logo {
+   background-color: #fff;
+   position: relative;
+   margin-left: 9px;
+   padding: 6px;
+   float: right;
+   clear: right;
+}
+#delete-features {
+   float: right;
+}
+#progress-note {
+   font-weight: bold;
+}
+#query-note {
+   text-align: center;
+}
+#profile-head {
+   display: inline;
+}
+#view-table {
+   float: right;
+}
+#symbol-limit {
+   width: 63px;
+   text-align: right;
+   margin-left: 4px;
+}
+iframe {
+   border: none;
+}
+thead {
+   background-color: #8fb;
+}
+.data {
+   padding-bottom: 2px;
+   table-layout: fixed;
+}
+.data thead, tfoot tr th {
+   font-weight: normal;
+}
+.data tbody {
+   text-align: right;
+   background-color: #8bf;
+}
+.data tbody td {
+   padding-left:  3px;
+   padding-right: 3px;
+}
+#results thead, tfoot {
+   background-color: #adf;
+}
+#precis tbody,
+#results tbody {
+   background-color: #fff;
+}
+#precis {
+   margin-bottom:  4px;
+}
